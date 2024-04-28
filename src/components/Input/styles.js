@@ -6,13 +6,27 @@ export const Container = styled.div`
 
     display: flex;
     align-items: center;
+
+    svg {
+        width: 3rem;
+        height: 3rem;
+
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+
+        color: ${({ theme }) => theme.COLORS.JUST_GRAY};
+
+    }
+
     
     > input {
         background: transparent;
         border: none;
-        padding: 1.4rem 2.4rem;
 
         width: 63rem;
+
+        padding-top: 1.7rem;
+        padding-bottom: 1.7rem;
 
         font-size: 1.4rem;
         font-weight: 400;
@@ -21,5 +35,6 @@ export const Container = styled.div`
         &:placeholder {
             color: ${({ theme }) => theme.COLORS.JUST_GRAY};
         }
+
     }
 `;

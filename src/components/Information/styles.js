@@ -15,10 +15,27 @@ export const Container = styled.div`
             p {
                 font-size: 1.6rem;
                 color: ${({ theme }) => theme.COLORS.GRAY_DESCRIPTION};
+
+                margin-top: 1.5rem;
             }
+
+            svg {
+                margin-top: .8rem;
+                margin-right: .6rem;
+                color: ${({ theme }) => theme.COLORS.PINK_SALMON};
+
+            }
+
+            .tags {
+                display: flex;
+                align-items: center;
+                gap: .8rem;
+        }
+
         
         }
 
+        
        
     }
    

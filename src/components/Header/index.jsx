@@ -8,13 +8,13 @@ export function Header() {
             <div>
                 <h1>RocketMovies</h1>
             </div>
-            <Input placeholder='teste'/>
+            <Input placeholder='Pesquisar pelo título'/>
             <div className='profile'>
                 <section>
                     <h3>Júlia Penna</h3>
                     <p>sair</p>
                 </section>
-                <img src={Profile} alt="" />
+                <img src={Profile} alt="Foto de Perfil" />
             </div>
         </Container>
     )
