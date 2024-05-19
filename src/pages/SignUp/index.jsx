@@ -14,7 +14,7 @@ export function SignUp() {
     return (
         <Container>
             <div className='frame'>    
-                <div className='loginFrame'>
+                <div className='logincreateFrame'>
                     <h1>RocketMovies</h1>
                     <p>Aplicação para acompanhar tudo que assistir.</p>
                         <div className='inputs'>

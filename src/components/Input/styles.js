@@ -27,6 +27,7 @@ export const Container = styled.div`
 
         padding-top: 1.7rem;
         padding-bottom: 1.7rem;
+        padding-left: 2.4rem;
 
         font-size: 1.4rem;
         font-weight: 400;

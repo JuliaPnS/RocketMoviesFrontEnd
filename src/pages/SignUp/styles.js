@@ -14,7 +14,7 @@ export const Container = styled.div`
     }
  
    
-   .loginFrame {
+   .logincreateFrame {
 
         margin-left: 13.4rem;
         text-align: center;

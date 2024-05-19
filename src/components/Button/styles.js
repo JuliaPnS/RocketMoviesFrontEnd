@@ -19,7 +19,4 @@ export const Container = styled.div`
     border-radius: 0.8rem;
 
     white-space: nowrap;
-
-
-
 `;

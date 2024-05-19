@@ -32,6 +32,7 @@ export const Container = styled.div`
             text-align: end;
             cursor: pointer;
 
+
             p {
                 color: ${({ theme }) => theme.COLORS.JUST_GRAY};
             }
@@ -39,6 +40,11 @@ export const Container = styled.div`
             p:hover {
                 color: #837F87;
             }
+
+            > h3 {
+                color: ${({ theme }) => theme.COLORS.JUST_WHITE};
+            }
+            
         }
 
         img {

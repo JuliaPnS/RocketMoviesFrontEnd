@@ -21,7 +21,6 @@ export const Container = styled.div`
             width: 18.4rem;
             white-space: nowrap;
 
-
         }
 
 
