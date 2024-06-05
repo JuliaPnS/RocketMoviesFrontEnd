@@ -1,5 +1,5 @@
 import { Container } from './styles';
-import  { Tag } from '../Tag';
+import  { Input } from '../Input';
 import { FaRegStar } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 
@@ -23,10 +23,10 @@ export function MovieInformation() {
                     </p>
                     <div className='tags'>
 
-                    <Tag title="Ficção Científica"/>
-                    <Tag  title="Drama"/>
-                    <Tag  title="Família"/>
-                </div>
+                        <Input className="tagsInformation"  value="Ficção Científica" readOnly/>
+                        <Input className="tagsInformation" value="Drama"/>
+                        <Input className="tagsInformation" value="Família"/>
+                    </div>
                 </section>
 
                 

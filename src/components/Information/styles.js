@@ -16,7 +16,8 @@ export const Container = styled.div`
                 font-size: 1.6rem;
                 color: ${({ theme }) => theme.COLORS.GRAY_DESCRIPTION};
 
-                margin-top: 1.5rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
             }
 
             svg {
@@ -30,13 +31,17 @@ export const Container = styled.div`
                 display: flex;
                 align-items: center;
                 gap: .8rem;
-        }
 
-        
-        }
+                .tagsInformation {
+                    height: 2.4rem;
+                    width: 100%;
 
-        
-       
+                    padding-left: 0;
+
+                    text-align: center;
+                }
+            }
+        }  
     }
    
 `

@@ -1,13 +1,22 @@
 import { Container } from './styles';
+import { PiX, PiPlus } from "react-icons/pi";
 
-
-export function Tag({title}) {
+export function Tag({ $isNew, title, ...rest}) {
     return (
-        <Container>
-            <div>
-                {title}
-            </div>
-           
+        <Container $isNew={$isNew} {...rest}>
+            <input 
+                type="text"
+                readOnly={!$isNew}
+            />
+                       
+           <button
+                type='button'
+                className={$isNew ? 'button-add' : 'button-delete'}>
+
+                {$isNew ? <PiPlus /> : <PiX />}
+
+            </button>
+
         </Container>
     )
 }
