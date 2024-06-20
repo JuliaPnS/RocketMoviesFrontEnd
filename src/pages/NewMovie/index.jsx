@@ -3,6 +3,7 @@ import { GoArrowLeft } from "react-icons/go";
 
 import { Input } from '../../components/Input';
 import { Header } from '../../components/Header';
+import { Tag } from '../../components/Tag';
 
 export function NewMovie() {
     return (
@@ -24,8 +25,11 @@ export function NewMovie() {
                         <Input placeholder='Observações' className='observation'/>
 
                         <label>Marcadores</label>
+                        <div className="tagInfos">
+                            <Tag value="React" />
+                            <Tag placeholder="Novo Marcador" $isNew/>
+                        </div>
 
-                        //*MovieTRag
                     </div>
                 </div>
         </Container>

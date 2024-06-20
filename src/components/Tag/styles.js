@@ -1,14 +1,53 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color: ${({ theme }) => theme.COLORS.VINO};
+height: 3rem;
+    
 
-    margin-top: 1.5rem;
-    padding: .5rem 1.6rem;
+background-color: ${({ theme, $isNew }) => $isNew ? "transparent" : theme.COLORS.BROWN_TAG1};
 
-    border-radius: .8rem;
+padding: 0.62rem 1rem;
+border-radius: 0.5rem;
 
-    color: #E5E5E5;
+border: ${({ theme, $isNew }) => $isNew ? `1px dashed ${theme.COLORS.JUST_GRAY}` : "none"};
 
-  
+display: flex;
+align-items: center;
+gap: 0.5rem;
+justify-content: center;
+
+> button {
+    border: none;
+    background: none;
+    color: ${({ theme }) => theme.COLORS.JUST_WHITE};
+}
+
+.button-delete {
+    color: ${({ theme }) => theme.COLORS.JUST_WHITE};
+}
+
+
+.button-add {
+    color: ${({ theme }) => theme.COLORS.JUST_WHITE};
+}
+
+
+> input {
+    border: none;
+    background: transparent;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-align: center;
+    width: 100%;
+
+    color: ${({ theme, $isNew }) => $isNew ? theme.COLORS.JUST_WHITE : theme.COLORS.JUST_WHITE};
+
+    &::placeholder {
+        color: ${({ theme, $isNew }) => $isNew ? theme.COLORS.JUST_GRAY: theme.COLORS.JUST_WHITE}
+    }
+    
+}
+
 `;

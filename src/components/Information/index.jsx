@@ -24,8 +24,8 @@ export function MovieInformation() {
                     <div className='tags'>
 
                         <Input className="tagsInformation"  value="Ficção Científica" readOnly/>
-                        <Input className="tagsInformation" value="Drama"/>
-                        <Input className="tagsInformation" value="Família"/>
+                        <Input className="tagsInformation" value="Drama" readOnly/>
+                        <Input className="tagsInformation" value="Família" readOnly/>
                     </div>
                 </section>
 

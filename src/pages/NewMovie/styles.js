@@ -48,6 +48,23 @@ export const Container = styled.div`
         label {
             color: ${({ theme }) => theme.COLORS.GRAY_DESCRIPTION};
             font-size: 1.6rem;
+
+    
+        }
+
+        > .tagInfos {
+            background-color: ${({ theme }) => theme.COLORS.BLACK_FIELD};
+
+            height: 5rem;
+            padding: 1.6rem;
+            border-radius: .8rem;
+
+            display: flex;
+            align-items: center;
+            gap: 2.4rem;
+
+            margin-top: 1.4rem;
+
         }
 
 
